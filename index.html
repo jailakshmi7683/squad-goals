@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dream Cricket Team</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="images/team-logo.jpeg" alt="Team Logo" class="logo" />
+    <h1>The Thunder Strikers</h1>
+    <p>Slogan: "Strike Hard, Win Harder!"</p>
+  </header>
+
+  <main>
+    <section class="player-grid">
+  <div class="player-card" onclick="openModal('player1')">
+    <img src="images/player1.jpeg" alt="Player 1">
+    <h3>Virat Smash</h3>
+    <p>Batsman</p>
+  </div>
+
+  <div class="player-card" onclick="openModal('player2')">
+    <img src="images/player2.jpeg" alt="Player 2">
+    <h3>Rohit Blaster</h3>
+    <p>Batsman</p>
+  </div>
+
+  <div class="player-card" onclick="openModal('player3')">
+    <img src="images/player3.jpeg" alt="Player 3">
+    <h3>Jasprit Fire</h3>
+    <p>Bowler</p>
+  </div>
+
+  <div class="player-card" onclick="openModal('player4')">
+    <img src="images/player4.jpeg" alt="Player 4">
+    <h3>Hardik Storm</h3>
+    <p>All-Rounder</p>
+  </div>
+
+  <div class="player-card" onclick="openModal('player5')">
+    <img src="images/player5.jpeg" alt="Player 5">
+    <h3>KL Quick</h3>
+    <p>Wicket-Keeper</p>
+  </div>
+
+  <div class="player-card" onclick="openModal('player6')">
+    <img src="images/player6.jpeg" alt="Player 6">
+    <h3>Shubman Speed</h3>
+    <p>Batsman</p>
+  </div>
+
+  <div class="player-card" onclick="openModal('player7')">
+    <img src="images/player7.jpeg" alt="Player 7">
+    <h3>Ravindra Spin</h3>
+    <p>Bowler</p>
+  </div>
+
+  <div class="player-card" onclick="openModal('player8')">
+    <img src="images/player8.jpeg" alt="Player 8">
+    <h3>Suryakumar Sky</h3>
+    <p>Batsman</p>
+  </div>
+
+  <div class="player-card" onclick="openModal('player9')">
+    <img src="images/player9.jpeg" alt="Player 9">
+    <h3>Axar Angle</h3>
+    <p>All-Rounder</p>
+  </div>
+
+  <div class="player-card" onclick="openModal('player10')">
+    <img src="images/player10.jpeg" alt="Player 10">
+    <h3>Mohammed Thunder</h3>
+    <p>Bowler</p>
+  </div>
+</section>
+
+
+      <!-- Add more player cards similarly -->
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="playerModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2 id="modalName">Virat Smash</h2>
+      <ul>
+        <li><strong>Jersey Number:</strong> <span id="modalJersey">18</span></li>
+        <li><strong>Matches Played:</strong> <span id="modalMatches">250</span></li>
+        <li><strong>Strike Rate:</strong> <span id="modalStrike">145.3</span></li>
+        <li><strong>Best Performance:</strong> <span id="modalBest">183 vs Pakistan</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
