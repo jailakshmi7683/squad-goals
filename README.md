@@ -30,6 +30,3 @@ Welcome to **Squad Goals**, a visually stunning one-page website that showcases 
 | GitHub Pages / Vercel / Netlify | Hosting |
 
 ---
-
-## 📁 Folder Structure
-
